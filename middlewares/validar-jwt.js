@@ -74,7 +74,7 @@ const validarADMIN_ROLE_o_MismoUsuario = async (req, res, next) => {
 		} else {
 			return res.status(403).json({
 				ok: false,
-				msg: "No tiene privilegios para hacer eso",
+				msg: "No tiene privilegios para hacer eso.",
 			});
 		}
 	} catch (error) {
